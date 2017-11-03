@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/boto4.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0b83f2"
+                android:text="@string/s1"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/boto4.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0b83f2"
+                android:text="@string/s2"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/boto4.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0b83f2"
+                android:text="@string/s3"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/boto4.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0b83f2"
+                android:text="@string/s4"
+                android:textAllCaps="false"
+                 />
+            />
+            <Button
+                android:id="@+id/boto4.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0b83f2"
+                android:text="@string/s5"
+                android:textAllCaps="false"
+                />
+            />
+            <Button
+                android:id="@+id/boto4.6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0b83f2"
+                android:text="@string/s6"
+                android:textAllCaps="false"
+                 />
+            />
+            <Button
+                android:id="@+id/boto4.7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0b83f2"
+                android:text="@string/s7"
+                android:textAllCaps="false"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

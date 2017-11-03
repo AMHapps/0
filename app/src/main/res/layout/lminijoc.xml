@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/normal"
+    android:weightSum="1">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:paddingLeft="37dp"
+        android:paddingTop="37dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/grid_layout_4x4"
+        android:layout_weight="0.30">
+    </GridLayout>
+
+    <Button
+        android:id="@+id/reiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="@string/rest"
+        android:textAllCaps="false" />
+</LinearLayout>

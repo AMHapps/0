@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ca"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:layout_margin="13sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ca1"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:layout_margin="13sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg01"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3x3 WR \naverage 5.97s Feliks Zemdegs \nsingle 4.69s Patrick Ponce"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg02"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2x2 WR \naverage 1.45s Rami Sbahi \nsingle 0.49s Maciej Czapiewski"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg03"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4x4 WR\naverage 23.03s Sebastian Weyer \nsingle 19.36s Feliks Zemdegs"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg09"
+                    android:layout_margin="12.5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5x5 WR \naverage 46.24s Feliks Zemdegs \nsingle 38.52s Feliks Zemdegs"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg10"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6x6 WR\naverage 1:27.79 Feliks Zemdegs \nsingle 1:20.03 Feliks Zemdegs"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg11"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7x7 WR\naverage 2:15.07 Feliks Zemdegs \nsingle 2:06.73 Feliks Zemdegs"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ka1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3x3 OH WR\naverage 10.31s Max Park \nsingle 6.88s Feliks Zemdegs"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ka2"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3x3 Fewest moves WR\naverage 24.00 Sébastien Auroux \nsingle 19 Marcel Peters "
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ka3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3x3 Blindfolded WR\naverage 22.67s Ishaan Agrawal \nsingle 18.31s Gianfranco Huanqui"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ka5"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3x3 With Feet WR\naverage 28.16s Jakub Kipa\nsingle 20.57s Jakub Kipa"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg04"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Megaminx  WR\naverage 35.15s Juan Pablo Huanqui\nsingle 29.93s Juan Pablo Huanqui"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg05"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pyraminx  WR\naverage 2.04s Drew Brads\nsingle 1.28s Benjamin Kyle"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg06"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clock WR\naverage 5.22 Tairan Zhong \nsingle 3.73 Nathaniel Berg"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg07"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Skewb WR\naverage 2.55s Jonatan Klosko\nsingle 1.10s Jonatan Klosko"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg08"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Square-1 WR\naverage 8.45s Brandon Lin\nsingle 5.73s Charlie Stark"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ka4"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Multi-Blindfolded WR\n41/41 54:14 Marcin Kowalczyk"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg03" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="4x4 Blind WR\n1:34.66 Kaijun Lin"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ctg09"
+                    android:layout_margin="12.5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5x5 Blind WR\n3:47.50 Kaijun Lin"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:layout_margin="8dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

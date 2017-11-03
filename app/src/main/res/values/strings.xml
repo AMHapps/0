@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">RubikApp</string>
+    <string name="Title" translatable="false">Rubik\'s Tutorial</string>
+
+    <string-array name="languages">
+        <item>@string/languages</item>
+        <item>English</item>
+        <item>Català</item>
+        <item>Español</item>
+
+    </string-array>
+    <string name="notation">The notation serves to name the movements of all the layers of the cube more easily</string>
+    <string name="parts">Parts of the cube</string>
+    <string name="not">Notation</string>
+    <string name="edges">Edges</string>
+    <string name="corners">Corners</string>
+    <string name="centers">Centers</string>
+    <string name="s1">1. White cross</string>
+    <string name="s2">2. White corners</string>
+    <string name="s3">3. Second layer</string>
+    <string name="s4">4. Yellow cross</string>
+    <string name="s5">5. Yellow edges on correct places</string>
+    <string name="s6">6. Yellow corners on correct places</string>
+    <string name="s7">7. Orient yellow corners</string>
+    <string name="wt2">Final goal,  Make a cross in which the four edges of the cross fit with the color of the side centers</string>
+    <string name="wt3">Put all the white edges on the white center face </string>
+    <string name="wt4">Turn  the layer until at least two edges fit with the side centers color</string>
+    <string name="wt5">R\' U\' R U R\'</string>
+    <string name="wt6">F U2 F\' U2 F</string>
+    <string name="wt7">Now you can have two cases to swap the two remaining edges</string>
+    <string name="wt8">Done!!</string>
+    <string name="languages">Languages</string>
+    <string name="wc2">Final goal.</string>
+    <string name="wc3">Now you can have 3 cases</string>
+    <string name="wc4">white on left \nD\' R\' D R </string>
+    <string name="wc5">white on right \nR\' D\' R</string>
+    <string name="wc6">white on bottom \nR\' D2 R D R\' D\' R </string>
+    <string name="wc8">Move the white corner under the spot where it\'s supposed to be</string>
+    <string name="wc9">And repeat for all the corners</string>
+    <string name="notation2">The letter means a single clockwise turn, letter followed by \' means counter-clockwise turn and letter followed by 2 means two turns</string>
+    <string name="centers2">"The centers do not move, they are always in the same position, white opposite with yellow, red opposite with orange and blue opposite with green"</string>
+    <string name="wt9">The red arrows indicate the two pieces that are swap and the letters indicate the movements that must be made following the notations that we have seen in the first section.</string>
+    <string name="wc10">If you need to take a corner to put it somewhere else or is in place but misdirected do: R\' D\' R  to get it out</string>
+    <string name="e2">Put an edge that has to go to the second layer above a center with the same color</string>
+    <string name="e3">If you need to take a edge to put it somewhere else or is in place but misdirected do: U R U\' R\' U\' F\' U F to get it out</string>
+    <string name="e4">If the edge has to go to the right \nU R U\' R\' U\' F\' U F</string>
+    <string name="e5">If the edge has to go left \nU\' L\' U L U F U\' F\'</string>
+    <string name="e6">Now you can have two cases</string>
+    <string name="e7">Put the white face underneath</string>
+    <string name="g2">If you have a point do the algorithm and you will get an L</string>
+    <string name="g3">If you have an L do the algorithm and you will get a line</string>
+    <string name="g4">If you have a line do the algorithm and you will get the cross</string>
+    <string name="g5">Look only at the edges look if you have a point, an L, a line or you already have the cross \nAlgorithm: F R U R\' U\' F\'</string>
+    <string name="a2">Rotate the layer until only one edge fits with the color of a center and do R U R\' U R U2 R\' until they fit all (can be once or twice)  If you can not fit just one edge do the algorithm and try again</string>
+    <string name="l1">Final goal, put all the corners of the last layer in the right place, they do not have to be well oriented</string>
+    <string name="l2">Find a corner that is in the right place, put it to the right and do U R U\' L\' U R\' U\' L until all the corners are in the correct place (do it once or twice)  If there is no corner in the right place do the algorithm and look again</string>
+    <string name="f1">Now just need to orient, put one of the corners that is not oriented up-right and do R\' D\' R D (do it two or four times) until the corner is oriented, now with movements of U, U\' or U2 (DO NOT rotate the whole cube) put another corner that is not oriented and repeats it. \n\nWhile doing this step it might seems that you messed up the cube.</string>
+    <string name="f2">Let\'s see an something.</string>
+    <string name="f3">Do U2  R\' D\' R D twice but as the corner is not oriented repeat it twice.</string>
+    <string name="f4">Do U2 to put the other corner to the right and do R\' D\' R D twice and U2 to finish the cube</string>
+    <string name="ca">Categories</string>
+    <string name="ca1">The world records may have changed, these are the ones from September 2017</string>
+
+    <string name="re1">Resources</string>
+    <string name="mjoc">Minigame</string>
+    <string name="Crono">Timer</string>
+    <string name="re3">cstimer: specialized Timer</string>
+    <string name="re4">Cubecomps: results of competitions in progress.</string>
+    <string name="re2">WCA: the official ranking</string>
+    <string name="crono1">Start</string>
+    <string name="crono2">Pause</string>
+    <string name="rest">Restart</string>
+
+
+</resources>
